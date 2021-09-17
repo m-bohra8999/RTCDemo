@@ -30,7 +30,7 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top shadow-lg">
     <div class="container">
-      <a href="index.html" class="navbar-brand"><img src="img/RTCLogoPng.png"></a>
+      <a href="index.html" class="navbar-brand m-0 p-0"><img class="m-0 p-0" src="img/RTCLogoPng.png"></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,23 +42,22 @@
           <li class="nav-item">
             <a href="about.html" class="nav-link">About Us</a>
           </li>
-
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">
               Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="product1.html">Sandstone</a>
-              <a class="dropdown-item" href="product2.html">Kotastone</a>
+              <a class="dropdown-item" href="product.html?product=cobblestone">Cobblestone</a>
+              <a class="dropdown-item" href="product.html?product=naturalstonesculpture">Natural Stone Sculpture</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Granite</a>
-              <a class="dropdown-item" href="#">Slate Stone</a>
-              <a class="dropdown-item" href="#">Marble</a>
+              <a class="dropdown-item" href="product.html?product=gravelpebbles">Gravel / Pebbles / Slate Chipping</a>
+              <a class="dropdown-item" href="product.html?product=bricksandsteps">Bricks & Steps</a>
+              <a class="dropdown-item" href="product.html?product=waterfeature">Water Feature</a>
+              <a class="dropdown-item" href="product.html?product=multistonemonoliths">Multi-Stone Monoliths</a>
+              <a class="dropdown-item" href="product.html?product=stoneFurniture">Stone Furniture</a>
             </div>
           </li>
-          <!-- <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog</a>
-          </li> -->
           <li class="nav-item active">
             <a href="contact.html" class="nav-link">Contact</a>
           </li>
@@ -80,7 +79,7 @@
   </header>
 
   <!-- CONTACT SECTION -->
-  <section id="contact" class="py-3">
+  <section id="contact" class="py-3 m-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -88,12 +87,12 @@
             <div class="card-body">
               <h4>Get In Touch</h4>
               <p>Want to get in touch? We'd love to hear from you. Don’t worry… we’re here for you.</p>
-              <h4>Address</h4>
-              <p>Rachna Trading Co., sector-14, Udaipur, Rajasthan (India) - 313001</p>
+              <!-- <h4>Address</h4>
+              <p>Rachna Trading Co., sector-14, Udaipur, Rajasthan (India) - 313001</p> -->
               <h4>Email</h4>
               <p>toshenrathore8@gmail.com</p>
               <h4>Phone</h4>
-              <p>+91 8866968382</p>
+              <p>+91 829-066-6766</p>
             </div>
           </div>
         </div>
@@ -102,7 +101,7 @@
             <div class="card-body">
               <h3 class="text-center">Please fill out this form to contact us</h3>
               <hr>
-              <form method="post" id="myForm">
+              <form method="POST" id="myForm">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -191,35 +190,29 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-9 text-center">
-          <!-- <div class="footer-site-logo mb-4">
-            <a href="#">Rachna Trading Co.</a>
-          </div> -->
-          <ul class="list-unstyled nav-links mb-5">
-            <li><a class="text-info" href="#">About</a></li>
+          <ul class="list-unstyled nav-links mb-3">
+            <li><a class="text-info" href="about.html">About</a></li>
             <li><a class="text-info" href="#">Products</a></li>
-            <li><a class="text-info" href="#">Contact</a></li>
+            <li><a class="text-info" href="contact.html">Contact</a></li>
           </ul>
-
-          <div class="social mb-5">
+          <div class="social mb-3">
             <ul class="list-unstyled">
               <li class="in"><a href="#"><span class="icon-instagram"></span><i class="fab fa-instagram fa-2x"></i></span></a></li>
               <li class="fb"><a href="#"><span class="icon-facebook"><i class="fab fa-facebook-square fa-2x"></i></span></a></li>
               <li class="tw"><a href="#"><span class="icon-twitter"><i class="fab fa-twitter fa-2x"></i></span></a></li>
             </ul>
           </div>
-
           <div class="copyright">
             <p class="mb-0"><small class="text-monospace">&copy; <span id="year"></span> maxDev Co. All Rights Reserved. </small></p>
           </div>
-
-
+          <div class="mt-2" id="google_translate_element"></div>
         </div>
       </div>
     </div>
   </footer>
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
@@ -260,13 +253,13 @@
       };
       
       $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
-          type: 'POST',
-          data: JSON.stringify(data),
-          contentType: 'application/json'
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
       }).done(function() {
-          alert('Thank you very much! For showing interest in our product. We\'ll get in touch with you soon.');
+        alert('Thank you very much! For showing interest in our product. We\'ll get in touch with you soon.');
       }).fail(function(error) {
-          alert('Oops... ' + JSON.stringify(error));
+        alert('Oops... ' + JSON.stringify(error));
       });
 
       document.getElementById('myForm').reset();

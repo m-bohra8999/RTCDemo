@@ -12,13 +12,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Allison&family=Raleway:wght@400&display=swap');
+  </style>
   <title>Bootstrap Theme</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top shadow-lg">
     <div class="container">
-      <a href="index.html" class="navbar-brand"><img src="img/RTCLogoPng.png"></a>
+      <a href="index.html" class="navbar-brand m-0 p-0"><img class="m-0 p-0" src="img/RTCLogoPng.png"></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,21 +33,22 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link">About Us</a>
           </li>
-
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">
               Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="product1.html">Sandstone</a>
-              <a class="dropdown-item" href="product2.html">Kotastone</a>
+              <a class="dropdown-item" href="product.html?product=cobblestone">Cobblestone</a>
+              <a class="dropdown-item" href="product.html?product=naturalstonesculpture">Natural Stone Sculpture</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Granite</a>
-              <a class="dropdown-item" href="#">Slate Stone</a>
-              <a class="dropdown-item" href="#">Marble</a>
+              <a class="dropdown-item" href="product.html?product=gravelpebbles">Gravel / Pebbles / Slate Chipping</a>
+              <a class="dropdown-item" href="product.html?product=bricksandsteps">Bricks & Steps</a>
+              <a class="dropdown-item" href="product.html?product=waterfeature">Water Feature</a>
+              <a class="dropdown-item" href="product.html?product=multistonemonoliths">Multi-Stone Monoliths</a>
+              <a class="dropdown-item" href="product.html?product=stoneFurniture">Stone Furniture</a>
             </div>
           </li>
-          
           <li class="nav-item">
             <a href="contact.html" class="nav-link">Contact</a>
           </li>
@@ -58,7 +62,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto text-center">
-          <h1>About Us</h1>
+          <h1 class="display-4">About Us</h1>
           <!-- <p>Star Light Stone is considered as a prominent name involved in offering a durable range of products to our clients.</p> -->
         </div>
       </div>
@@ -70,15 +74,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 p-4">
-          <h1>What We Do</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga eaque. Amet, assumenda aliquid tempore dolorum
-            error eveniet doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam accusantium pariatur aut sint deleniti
-            laborum ducimus voluptatem? Architecto cumque quod suscipit officiis soluta, voluptate dicta blanditiis similique
-            praesentium temporibus adipisci debitis labore!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga eaque. Amet, assumenda aliquid tempore dolorum
-            error eveniet doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam accusantium pariatur aut sint deleniti
-            laborum ducimus voluptatem? Architecto cumque quod suscipit officiis soluta, voluptate dicta blanditiis similique
-            praesentium temporibus adipisci debitis labore!</p>
+          <h1 class="display-4">What We Do</h1><hr/>
+          <h1 class="" style="font-family: 'Allison', cursive;">See the art, Understand the artist...</h1>
+          <p style="font-family: 'Raleway', sans-serif;">We here in Rachna Trading Company helps are clients to meet their stone related choices precisely. Fullfilling our clients need is what we focus upon. We as a team, believes in client satisfaction for which we are dedicatedly working taking card of superior quapity checkup time to time. Delivering the orders timely with International level of finishing.</p>
+          <p style="font-family: 'Raleway', sans-serif;">Innovating the ideas which helps the product distinctively also make us the prior choice of our customers in this competitve world. 
+            As our slogan goes ' Trust the Vision'  not only visualizing the art we focus on portraying it on the stone as well. Our dedicated team work towards converting stone into a lively artistic product.</p>
+          <p class="font-italic font-weight-light">"From Aesthetic to Authentic"</p>
         </div>
         <div class="col-md-6">
           <img src="./img/aboutuspic.jpg" alt="" class="img-fluid rounded-circle d-none d-md-block about-img shadow-lg">
@@ -211,35 +212,29 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-9 text-center">
-          <!-- <div class="footer-site-logo mb-4">
-            <a href="#">Rachna Trading Co.</a>
-          </div> -->
-          <ul class="list-unstyled nav-links mb-5">
-            <li><a class="text-info" href="#">About</a></li>
+          <ul class="list-unstyled nav-links mb-3">
+            <li><a class="text-info" href="about.html">About</a></li>
             <li><a class="text-info" href="#">Products</a></li>
-            <li><a class="text-info" href="#">Contact</a></li>
+            <li><a class="text-info" href="contact.html">Contact</a></li>
           </ul>
-
-          <div class="social mb-5">
+          <div class="social mb-3">
             <ul class="list-unstyled">
               <li class="in"><a href="#"><span class="icon-instagram"></span><i class="fab fa-instagram fa-2x"></i></span></a></li>
               <li class="fb"><a href="#"><span class="icon-facebook"><i class="fab fa-facebook-square fa-2x"></i></span></a></li>
               <li class="tw"><a href="#"><span class="icon-twitter"><i class="fab fa-twitter fa-2x"></i></span></a></li>
             </ul>
           </div>
-
           <div class="copyright">
             <p class="mb-0"><small class="text-monospace">&copy; <span id="year"></span> maxDev Co. All Rights Reserved. </small></p>
           </div>
-
-
+          <div class="mt-2" id="google_translate_element"></div>
         </div>
       </div>
     </div>
   </footer>
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>

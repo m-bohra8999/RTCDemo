@@ -1,435 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="icon" href="./img/RTCLogoPng.png" />
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Rachna Trading Company</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top shadow-lg">
-    <div class="container">
-      <a href="index.html" class="navbar-brand"><img src="img/RTCLogoPng.png"></a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About Us</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="product1.html">Sandstone</a>
-              <a class="dropdown-item" href="product2.html">Kotastone</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Granite</a>
-              <a class="dropdown-item" href="#">Slate Stone</a>
-              <a class="dropdown-item" href="#">Marble</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- SHOWCASE SLIDER -->
-  <section id="showcase">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item carousel-image-2 card-img-overlay active">
-          <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Welcome To <span class="text-danger">R</span>achna <span class="text-danger">T</span>rading <span class="text-danger">C</span>o.</h1>
-              <p class="p-2 lead">We have a wide spectrum of dimensional stones that include granite, marble, sandstone, limestone, slate, and quartz.</p>
-              <a href="/contact.html" class="btn btn-info btn-lg rounded-0">Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item carousel-image-1">
-          <div class="container">
-            <div class="carousel-caption d-none d-sm-block mb-5">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item carousel-image-3">
-          <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-
-  <!--HOME ICON SECTION  -->
-  <!-- <section id="home-icons" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cog fa-3x mb-2"></i>
-          <h3>Turning Gears</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cloud fa-3x mb-2"></i>
-          <h3>Sending Data</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fas fa-cart-plus fa-3x mb-2"></i>
-          <h3>Making Money</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- INFO SECTION -->
-  <section id="info" class="py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center shadow p-5">
-          <h3 class="font-italic font-weight-normal">Who we are?</h3>
-          <p>Our organization is supported by a well-equipped manufacturing unit which is spread across vast areas. Our manufacturing unit is outfitted with advanced technology and tools that help us to manufacture products as per client specifications and expectations.</p>
-
-          <p>We regularly upgrade our tools and technology as per changing trends of the market to keep pace with our competitors. All our departments work in coordination with one another to streamline our entire process.</p>
-          <a href="about.html" class="btn btn-outline-info btn-lg">About Us <i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="col-md-6" id="rtclogo">
-          <img src="img/RTCLogo.png" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOME HEADING SECTION -->
-  <section id="home-heading" class="p-5">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container pt-5">
-            <h1 class="display-4 font-italic">Why Us?</h1>
-            <h3 id="whyus" class="font-italic mt-4 d-none d-md-block font-weight-light">Rachna Trading Company is considered as a prominent name involved in offering a durable range of products to our clients.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VIDEO PLAY -->
-  <!-- <section id="video-play">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
-              <i class="fas fa-play fa-3x"></i>
-            </a>
-            <h1>See What We Do</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- PHOTO GALLERY -->
-  <section id="icon-boxes" class="py-5">
-    <div class="container">
-      <h1 class="text-center">Gallery</h1>
-      <p class="text-center text-muted font-italic">Check out our Precious Collection</p>
-      <div class="row mb-4">
-        <div class="col-md-4 content">
-          <!-- <a href="img/gallery1.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
-            data-width="560"> -->
-
-            <div class="hovereffect">
-              <img src="img/gallery1.jpg" alt="" class="img-fluid shadow pb-3">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery1.jpg" data-toggle="lightbox" data-gallery="img-gallery" >
-                    View Product
-                  </a>
-                </p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./img/RTCLogoPng.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rachna Trading Company</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top shadow-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand m-0 p-0"><img class="m-0 p-0" src="img/RTCLogoPng.png"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="product.html?product=cobblestone">Cobblestone</a>
+                <a class="dropdown-item" href="product.html?product=naturalstonesculpture">Natural Stone Sculpture</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="product.html?product=gravelpebbles">Gravel / Pebbles / Slate Chipping</a>
+                <a class="dropdown-item" href="product.html?product=bricksandsteps">Bricks & Steps</a>
+                <a class="dropdown-item" href="product.html?product=waterfeature">Water Feature</a>
+                <a class="dropdown-item" href="product.html?product=multistonemonoliths">Multi-Stone Monoliths</a>
+                <a class="dropdown-item" href="product.html?product=stoneFurniture">Stone Furniture</a>
               </div>
-            </div>
-
-            <!-- <img src="img/gallery1.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-
-        <div class="col-md-4">
-          <!-- <a href="img/gallery2.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
-            data-width="561"> -->
-            <div class="hovereffect">
-              <img src="img/gallery2.jpg" alt="" class="img-fluid shadow">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery2.jpg" data-toggle="lightbox" data-gallery="img-gallery" >
-                    View Product
-                  </a>
-                </p>
-              </div>
-            </div>
-            <!-- <img src="img/gallery2.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-
-        <div class="col-md-4">
-          <!-- <a href="img/gallery3.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="562"
-            data-width="562"> -->
-            <div class="hovereffect">
-              <img src="img/gallery3.jpg" alt="" class="img-fluid shadow">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery3.jpg" data-toggle="lightbox" data-gallery="img-gallery" >
-                    View Product
-                  </a>
-                </p>
-              </div>
-            </div>
-            <!-- <img src="img/gallery3.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-      </div>
-
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <!-- <a href="img/gallery4.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="563"
-            data-width="563"> -->
-            <div class="hovereffect">
-              <img src="img/gallery4.jpg" alt="" class="img-fluid shadow">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery4.jpg" data-toggle="lightbox" data-gallery="img-gallery" >
-                    View Product
-                  </a>
-                </p>
-              </div>
-            </div>
-            <!-- <img src="img/gallery4.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-
-        <div class="col-md-4">
-          <!-- <a href="img/gallery5.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="564"
-            data-width="564"> -->
-            <div class="hovereffect">
-              <img src="img/gallery5.jpg" alt="" class="img-fluid shadow">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery5.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                    View Product
-                  </a>
-                </p>
-              </div>
-            </div>
-            <!-- <img src="img/gallery5.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-
-        <div class="col-md-4">
-          <!-- <a href="img/gallery6.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="565"
-            data-width="565"> -->
-            <div class="hovereffect">
-              <img src="img/gallery6.jpg" alt="" class="img-fluid shadow">
-              <div class="overlay">
-                <h2></h2>
-                <p>
-                  <a href="img/gallery6.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                    View Product
-                  </a>
-                </p>
-              </div>
-            </div>
-            <!-- <img src="img/gallery6.jpg" alt="" class="img-fluid shadow"> -->
-          <!-- </a> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <hr/>
-  
-  <!-- NEWSLETTER -->
-  <section id="newsletter" class="text-center p-5 bg-light text-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="">Sign Up For Our Newsletter</h1>
-          <p>Want to see Latest Products in our stock? Subscribe now.</p>
-          <form class="form-inline justify-content-center">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
-            <button class="btn btn-primary mb-2">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-
-  <!-- FOOTER -->
-  <!-- <footer id="main-footer" class="text-center p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Copyright &copy;
-            <span id="year"></span> Glozzom</p>
-        </div>
-      </div>
-    </div>
-  </footer> -->
-
-  <footer class="bg-dark footer-16371">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-9 text-center">
-          <!-- <div class="footer-site-logo mb-4">
-            <a href="#">Rachna Trading Co.</a>
-          </div> -->
-          <ul class="list-unstyled nav-links mb-5">
-            <li><a class="text-info" href="about.html">About</a></li>
-            <li><a class="text-info" href="#">Products</a></li>
-            <li><a class="text-info" href="contact.html">Contact</a></li>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
           </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-2 card-img-overlay active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Welcome To <span class="text-danger">R</span>achna <span class="text-danger">T</span>rading <span class="text-danger">C</span>o.</h1>
+                <p class="p-2 lead">We have a wide spectrum of dimensional stones that include granite, marble, sandstone, limestone, slate, and quartz.</p>
+                <a href="contact.html" class="btn btn-info btn-lg rounded-0">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-1">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!--HOME ICON SECTION  -->
+    <!-- <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-hands-helping fa-3x mb-2"></i>
+            <h3>Turning Gears</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-2"></i>
+            <h3>Sending Data</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cart-plus fa-3x mb-2"></i>
+            <h3>Making Money</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- INFO SECTION -->
+    <section id="info" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center shadow p-5">
+            <h3 class="font-italic font-weight-normal">Who we are?</h3>
+            <p>Our organization is supported by a well-equipped manufacturing unit which is spread across vast areas. Our manufacturing unit is outfitted with advanced technology and tools that help us to manufacture products as per client specifications and expectations.</p>
+            <p>We regularly upgrade our tools and technology as per changing trends of the market to keep pace with our competitors. All our departments work in coordination with one another to streamline our entire process.</p>
+            <a href="about.html" class="btn btn-outline-info btn-lg">About Us <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="col-md-6" id="rtclogo">
+            <img src="img/RTCLogo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME HEADING SECTION -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1 class="display-4 font-italic">Why Us?</h1>
+              <h3 id="whyus" class="font-italic mt-4 d-md-block font-weight-light">Rachna Trading Company is considered as a prominent name involved in offering a durable range of products to our clients.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="social mb-5">
-            <ul class="list-unstyled">
-              <li class="in"><a href="#"><span class="icon-instagram"></span><i class="fab fa-instagram fa-2x"></i></span></a></li>
-              <li class="fb"><a href="#"><span class="icon-facebook"><i class="fab fa-facebook-square fa-2x"></i></span></a></li>
-              <li class="tw"><a href="#"><span class="icon-twitter"><i class="fab fa-twitter fa-2x"></i></span></a></li>
+    <!-- VIDEO PLAY -->
+    <!-- <section id="video-play">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container p-5">
+              <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
+                <i class="fas fa-play fa-3x"></i>
+              </a>
+              <h1>See What We Do</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- PHOTO GALLERY -->
+    <section id="icon-boxes">
+      <div class="container page-top">
+        <h1 class="text-center display-4">Gallery</h1>
+        <p class="text-center text-muted font-italic">Check out our Precious Collection</p>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery1.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery1.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>      
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery2.jpg"  class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery2.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery3.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery3.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery4.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery4.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery5.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery5.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery6.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery6.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery7.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery7.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="./img/gallery8.jpg" class="fancybox" rel="ligthbox">
+              <img  src="./img/gallery8.jpg" class="zoom img-fluid shadow"  alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr/>
+
+    <!-- <section id="team" class="mb-3 p-3">
+      <div class="container">
+        
+      </div>      
+    </section> -->
+
+    <footer class="bg-dark footer-16371">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <ul class="list-unstyled nav-links mb-3">
+              <li><a class="text-info" href="about.html">About</a></li>
+              <li><a class="text-info" href="#">Products</a></li>
+              <li><a class="text-info" href="contact.html">Contact</a></li>
             </ul>
+            <div class="social mb-3">
+              <ul class="list-unstyled">
+                <li class="in"><a href="#"><span class="icon-instagram"></span><i class="fab fa-instagram fa-2x"></i></span></a></li>
+                <li class="fb"><a href="#"><span class="icon-facebook"><i class="fab fa-facebook-square fa-2x"></i></span></a></li>
+                <li class="tw"><a href="#"><span class="icon-twitter"><i class="fab fa-twitter fa-2x"></i></span></a></li>
+              </ul>
+            </div>
+            <div class="copyright">
+              <p class="mb-0"><small class="text-monospace">&copy; <span id="year"></span> maxDev Co. All Rights Reserved. </small></p>
+            </div>
+            <div class="mt-2" id="google_translate_element"></div>
           </div>
+        </div>
+      </div>
+    </footer>
 
-          <div class="copyright">
-            <p class="mb-0"><small class="text-monospace">&copy; <span id="year"></span> maxDev Co. All Rights Reserved. </small></p>
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
           </div>
-
-
         </div>
       </div>
     </div>
-  </footer>
 
-
-  <!-- VIDEO MODAL -->
-  <div class="modal fade" id="videoModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-    // Configure Slider
-    $('.carousel').carousel({
-      interval: 6000,
-      pause: 'hover'
-    });
-
-    // Lightbox Init
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
-    });
-
-    // Video Play
-    $(function () {
-      // Auto play modal video
-      $(".video").click(function () {
-        var theModal = $(this).data("target"),
-          videoSRC = $(this).attr("data-video"),
-          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-        $(theModal + ' iframe').attr('src', videoSRCauto);
-        $(theModal + ' button.close').click(function () {
-          $(theModal + ' iframe').attr('src', videoSRC);
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- remove -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+      // Configure Slider
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: 'hover'
+      });
+      // Lightbox Init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $(".video").click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+            $(theModal + ' iframe').attr('src', videoSRC);
+          });
         });
       });
-    });
-
-    // shrink navbar
-    $(function(){
-      $(window).scroll(function(){
-        if($(window).scrollTop() <= 40){
-          $(".navbar img").css("height", "80px");
-        } else {
-          $(".navbar img").css("height", "60px");
-        }
+      // shrink navbar
+      $(function(){
+        $(window).scroll(function(){
+          if($(window).scrollTop() <= 40){
+            $(".navbar img").css("height", "80px");
+          } else {
+            $(".navbar img").css("height", "60px");
+          }
+        })
       })
-    })
-
-    $(window).scroll(function() {
-    var height = $(window).scrollTop();;
-      if(height > $("#showcase").offset().top) {
-        $("#rtclogo").addClass('animate__animated animate__fadeInLeft');
-      }
-      if(height > $("#info").offset().top + 20) {
-        $("#whyus").addClass('animate__animated animate__fadeInUp');
-      }
-    });
-
-  </script>
-</body>
-
+      $(window).scroll(function() {
+      var height = $(window).scrollTop();;
+        if(height > $("#showcase").offset().top) {
+          $("#rtclogo").addClass('animate__animated animate__fadeInLeft');
+        }
+        if(height > $("#info").offset().top + 20) {
+          $("#whyus").addClass('animate__animated animate__fadeInUp');
+        }
+      });
+      // remove
+      $(document).ready(function(){
+        $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+          });
+          $(".zoom").hover(function(){
+          $(this).addClass('transition');
+        }, function(){
+          $(this).removeClass('transition');
+        });
+      });
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en', 
+        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      }, 'google_translate_element');
+    }   
+    </script>
+  </body>
 </html>
