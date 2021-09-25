@@ -2,6 +2,35 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 992px) {
+  .page-headings, #why-us-heading{
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #whyus {
+    font-size: 25px;
+  }
+}
+
+
+
+.welcome-text {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #53565b;
+}
+
+.welcome-text-rtc {
+  font-weight: 450;
+}
+
+/* @media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+} */
+
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 1px;
