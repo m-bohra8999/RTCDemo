@@ -22,7 +22,9 @@ body {
 }
 
 .welcome-text-rtc {
-  font-weight: 450;
+  font-weight: 550;
+  color: #6C7780 ;
+  text-shadow: 1px 0px 1px #080808, 0px 1px 1px #252121, 2px 1px 1px #1b1a1a, 1px 2px 1px #131010, 3px 2px 1px #131111, 2px 3px 1px #161515, 4px 3px 1px #1b1a1a, 3px 4px 1px #242121, -20px -15px 0px rgba(206,89,55,0);
 }
 
 /* @media screen and (max-width: 600px) {

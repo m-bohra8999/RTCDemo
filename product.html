@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta name="description" content="RTC Stones have a wide variety of Best stones that include granite, marble, sandstone, limestone, slate, and quartz. Natural Stone Sculpture, Cobblestone, stone furniture, stone monoliths etc." />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,7 +26,8 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Allison&family=Raleway:wght@400&family=Bonheur+Royale&display=swap');
   </style>
-  <title>Rachna Trading Company</title>
+  <title>RTC Stones: Best Granite, Marble, Sandstone, Limestone, Slate, and Quartz</title>
+
 </head>
 
 <body>
@@ -200,31 +202,31 @@
 
   <section id="icon-boxes">
     <div class="container page-top">
-      <h4 class="text-muted">Available products:</h4>
+      <h4 class="text-muted">Related Products:</h4>
       <div class="row mt-4 justify-content-around">
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a href="./img/stonesphere.jpg" class="fancybox" rel="ligthbox">
-            <img  src="./img/stonesphere.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
+          <a id='relatedProductImg1link' href="" class="fancybox" rel="ligthbox">
+            <img id="relatedProductImg1" src="./img/stonesphere.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
           </a>
-          <h2 style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3">Stone Sphere</h2>
+          <h2 id="relatedProductText1" style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3"></h2>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a href="./img/stonemordernart.jpg" class="fancybox" rel="ligthbox">
-            <img  src="./img/stonemordernart.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
+          <a id='relatedProductImg2link' href="" class="fancybox" rel="ligthbox">
+            <img id="relatedProductImg2" src="./img/stonemordernart.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
           </a>
-          <h2 style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3">Stone Mordern Art</h2>
+          <h2 id="relatedProductText2" style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3"></h2>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a href="./img/gallery8.jpg" class="fancybox" rel="ligthbox">
-            <img  src="./img/gallery8.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
+          <a id='relatedProductImg3link' href="" class="fancybox" rel="ligthbox">
+            <img id="relatedProductImg3" src="./img/gallery8.jpg" class="zoom img-fluid shadow" loading="lazy" alt="">
           </a>
-          <h2 style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3">Stone Sphere</h2>
+          <h2 id="relatedProductText3" style="font-family: 'Bonheur Royale', cursive;"class="font-weight-light text-center m-3"></h2>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="container mb-5" style="display:none">
+  <!-- <div class="container mb-5" style="display:none">
     <div class="row mx-4">
       <div class="col-md-6">
         <h4 class="mt-4">Related Products:</h4>
@@ -238,7 +240,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- FOOTER -->
   <!-- <footer id="main-footer" class="text-center p-4">
@@ -367,9 +369,12 @@
           img3: './img/cobblestone3.jpg',
           description: '<p>Highly Impressive, Aesthetic & Rigid; This natural building material which can be part of pavement roads, footpaths and many more.</p><p>Moreover these <b>"Belgian Blocks"</b> can be referred with cobbles due to their Cobble-Sized makeover.</p>',
           relatedProducts: {
-            p1: 'product1',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/image22.jpg',
+            p2: './img/slatechipping.jpg',
+            p3: './img/bricksStone.jpg',
+            link1: 'naturalstonesculpture',
+            link2: 'gravelpebbles',
+            link3: 'bricksandsteps'
           }
         },
         naturalstonesculpture: {
@@ -377,12 +382,15 @@
           heading2: 'Natural Stone Sculpture',
           img: './img/image22.jpg',
           img2: './img/naturalstonesculpture2.jpg',
-          img3: './img/naturalstonesculpture3.jpg',
+          img3: './img/stonesphere.jpg',
           description: '<p>Inspired by pre-historic period, stone-art(carving, engraving, pecking, abrading) converting this inanimates into visually interesting three-dimensional stone shapes.</p><p>Stone Monilith, Stone Boulder, Stone Spheres, Stone letters</p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/slatechipping.jpg',
+            p2: './img/bricksStone.jpg',
+            p3: './img/waterFeature.jpg',
+            link1: 'gravelpebbles',
+            link2: 'bricksandsteps',
+            link3: 'waterfeature'
           }
         },
         gravelpebbles: {
@@ -393,9 +401,12 @@
           img3: './img/slatechipping3.jpg',
           description: '<br/><p>Decorative stones helps you create an effortlessly stylish space, whilst gravel bulk bags are a great choice for large well used spaces like <span class="font-weight-bold">drive-ways and walk-through</span> areas combining the colorfull pebbles with a suitable Slate Chips.</p><p></p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/bricksStone.jpg',
+            p2: './img/waterFeature.jpg',
+            p3: './img/multiStoneMonoliths1.jpg',
+            link1: 'bricksandsteps',
+            link2: 'waterfeature',
+            link3: 'multistonemonoliths'
           }
         },
         bricksandsteps: {
@@ -406,31 +417,44 @@
           img3: './img/bricksStone3.jpg',
           description: '<br/><p>Generally, no not so general, these stone bricks and steps will glorify the whole show of the <span class="font-italic">landscape</span> you gonna wish for. From ancient times we could see stone bicks and steps are a part of major building material for decades and now this new age decor blending in with ancient architectural theme which are being used substanstially. The fine natural look allow you to feel complete.</p><p></p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/waterFeature.jpg',
+            p2: './img/multiStoneMonoliths1.jpg',
+            p3: './img/stoneFurniture1.jpg',
+            link1: 'waterfeature',
+            link2: 'multistonemonoliths',
+            link3: 'stoneFurniture'
           }
         },
         waterfeature: {
           heading2: 'Water Feature',
           heading1: 'Water Feature',
           img: './img/waterFeature.jpg',
+          img2: './img/waterFeature2.jpg',
+          img3: './img/waterFeature3.jpg',
           description: '<br/><p>Different spaces require different designs and here we are again to ease the ways for engaging you with some of our beautiful, unique and sharp range of water features where you can be seeing the <span class="font-weight-bold">running play of water</span> in terms of some natural fountains probably some hard work which our team is dedicated into.</p><p></p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/multiStoneMonoliths1.jpg',
+            p2: './img/stoneFurniture1.jpg',
+            p3: './img/cobblestoneHandcut.jpg',
+            link1: 'multistonemonoliths',
+            link2: 'stoneFurniture',
+            link3: 'cobblestone'
           }
         },
         multistonemonoliths: {
           heading2: 'Multi-Stone Monoliths',
           heading1: 'Multi-Stone Monoliths',
           img: './img/multiStoneMonoliths1.jpg',
+          img2: './img/multistonemonolith2.jpg',
+          img3: './img/multiStoneMonolith3.jpg',
           description: '<br/><p>We as a team is very particular with the landscapes and garden areas as to which this field came into play. Multistone monoliths are our subject which is prior to us ethically and designing them is a very classic job for us to do. We\'ve seen monoliths but what we excel in this is the use of <span class="font-weight-bold">Variation (Tone, Form & Range)</span> which differentiates us and our monolith to stand firm and ideal.</p><p></p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/stoneFurniture1.jpg',
+            p2: './img/cobblestoneHandcut.jpg',
+            p3: './img/image22.jpg',
+            link1: 'stoneFurniture',
+            link2: 'cobblestone',
+            link3: 'naturalstonesculpture'
           }
         },
         stoneFurniture: {
@@ -441,9 +465,12 @@
           img3: './img/stoneFurniture3.jpg',
           description: '<br/><p>Getting bored with all that going regular with your home, looking for a change and that change is here. Our team precisely working on some stone furniture and stone art lately which certainly enhance your garden, living area and office area as well. Designs which expresses your area according to your persona.</p><p>Clients can also come up with their ideas and we are here making that possible. We are proud to provide you with high class stone furnitures including seat, tables for various purposes whether it can be a teatable, side table or your office table.</p>',
           relatedProducts: {
-            p1: 'product1 - sandstone',
-            p2: 'product2',
-            p3: 'product3'
+            p1: './img/cobblestoneHandcut.jpg',
+            p2: './img/image22.jpg',
+            p3: './img/slatechipping.jpg',
+            link1: 'cobblestone',
+            link2: 'naturalstonesculpture',
+            link3: 'gravelpebbles'
           }
         }
       }
@@ -456,11 +483,20 @@
       $("#productImg1").attr("src", data[product].img);
       $("#productImg2").attr("src", data[product].img2);
       $("#productImg3").attr("src", data[product].img3);
-      if (product == 'naturalstonesculpture') {
-        $('#icon-boxes').show();
-      } else {
-        $('#icon-boxes').hide();
-      }
+
+      $("#relatedProductImg1").attr("src", data[product].relatedProducts.p1);
+      $("#relatedProductImg2").attr("src", data[product].relatedProducts.p2);
+      $("#relatedProductImg3").attr("src", data[product].relatedProducts.p3);
+
+      $("#relatedProductImg1link").attr("href", `product.html?product=${data[product].relatedProducts.link1}`); 
+      $("#relatedProductImg2link").attr("href", `product.html?product=${data[product].relatedProducts.link2}`); 
+      $("#relatedProductImg3link").attr("href", `product.html?product=${data[product].relatedProducts.link3}`); 
+
+      
+      $("#relatedProductText1").text(data[data[product].relatedProducts.link1].heading1);  
+      $("#relatedProductText2").text(data[data[product].relatedProducts.link2].heading1);  
+      $("#relatedProductText3").text(data[data[product].relatedProducts.link3].heading1);  
+
     })
   </script>
 </body>
